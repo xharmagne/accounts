@@ -10,6 +10,7 @@ var config = {
   ],
   output: {
     path: BUILD_DIR,
+    publicPath: '/public/',
     filename: 'bundle.js'
   },
   module : {
