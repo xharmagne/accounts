@@ -10,6 +10,8 @@ Frameworks, build tools and language used are as follows:
 * Webpack
 * Jest
 
+### Setup
+
 Install packages
 ```
 npm install
