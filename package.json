@@ -1,0 +1,47 @@
+{
+  "name": "accounts",
+  "version": "1.0.0",
+  "description": "ReactJS test",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testDirectoryName": "app",
+    "testFileExtensions": [
+      "test.js"
+    ],
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react",
+      "<rootDir>/node_modules/react-dom",
+      "<rootDir>/node_modules/react-addons-test-utils"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xharmagne/accounts.git"
+  },
+  "author": "Xharmagne Carandang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xharmagne/accounts/issues"
+  },
+  "homepage": "https://github.com/xharmagne/accounts#readme",
+  "dependencies": {
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "webpack": "^1.13.0"
+  },
+  "devDependencies": {
+    "babel-jest": "^11.0.1",
+    "babel-polyfill": "^6.7.4",
+    "classnames": "^2.2.3",
+    "css-loader": "^0.23.1",
+    "jest-cli": "^11.0.1",
+    "react-addons-test-utils": "^15.0.1",
+    "style-loader": "^0.13.1"
+  }
+}
